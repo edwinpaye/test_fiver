@@ -8,23 +8,6 @@ import (
 	"github.com/gofiber/fiber/v2"
 )
 
-// var Database *gorm.DB
-// var dns string = "host=localhost user=root password=root dbname=mydb port=5432 sslmode=disable TimeZone=Asia/Shanghai"
-
-// func Connect() error {
-//     var err error
-
-//     Database, err = gorm.Open(postgres.Open(dns), &gorm.Config{})
-
-//     if err != nil {
-//         panic(err)
-//     }
-
-//     Database.AutoMigrate(&Dog{})
-
-//     return nil
-// }
-
 func main() {
 	app := fiber.New()
 
